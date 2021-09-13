@@ -1,0 +1,119 @@
+/* OPCIO2 */
+
+.principal {
+    background-color: #DCBA8C;
+    margin: 0 auto;
+    width: 48%;
+    border: 1px solid black;
+    font-family: Arial;
+}
+.principal2 {
+    border-left: 20px solid #BC8A44;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img01 {
+    background-image: url(../img/dom01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 70px;
+    height: 70px;
+}
+.img02 {
+    background-image: url(../img/dom02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+.parte01 {
+    border: 5px dotted #BC8A44;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.texto {
+    text-align: justify;
+    font-size: 11px;
+    padding: 0px 10px 0px 10px;
+}
+.parte02, .parte03, .parte04, .parte05 {
+    border-left: 5px solid #BC8A44;
+    border-right: 5px solid #BC8A44;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.parte04 {
+    margin-top: 20px;
+}
+.año {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding: 0px 10px 0px 10px;
+}
+.t2017 {
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+.texto2017 {
+    text-align: justify;
+    font-size: 11px;
+    padding: 0px 5px 0px 10px;
+}
+.img03 {
+    width: 100px;
+    height: 140px;
+    border: 3px solid #BC8A44;
+    padding: 3px;
+    margin-right: 10px;
+    float: right;
+}
+.img04 {
+    width: 100px;
+    height: 140px;
+    border: 3px solid #BC8A44;
+    padding: 3px;
+    margin-left: 10px;
+    float:left;
+}
+.t2018 {
+    width: 330px;
+    vertical-align: top;
+    display: inline-block;
+}
+.texto2018 {
+    height: 75px;
+    text-align: justify;
+    font-size: 11px;
+    padding: 0px 5px 0px 10px;
+}
+.img05 {
+    width: 100px;
+    height: 140px;
+    border: 3px solid #BC8A44;
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.texto2018_2 {
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 0px;
+    padding: 0px 5px 0px 10px;
+}
+.imglink {
+    width: 40px;
+    height: 20px;
+    padding-left: 8px;
+}

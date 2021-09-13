@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prova FIELDSET y LEGEND</title>
+</head>
+<body style="background-color: #FFFEE0">
+    <h1>Exemple FIELSET i LEGEND en un formulari</h1>
+    <form name="FIELDSET y LEGEND" method="get" action="http://kalixtik.com/print.php">
+
+        <!-- FIELDSET es un marc per englobar els camps d'un formulari o un contingut
+             LEGEND es el texte que pot incorporar-se a FIELSET -->
+
+        <fieldset style="background-color: lightblue; border-width: 3px; border-color: red">
+            <legend align="left" style="color: red; font-weight: bold">Dades personals</legend>
+            <div>
+                <label for="inom">Nom:</label>
+                <input type="text" name="nom" id="inom" placeholder="Nom">
+                <label for="icognoms">Cognoms:</label>
+                <input type="text" name="cognoms" id="icognoms" placeholder="Cognoms">
+            </div>
+        </fieldset>
+        </br>
+        <fieldset style="background-color: lightgreen; border-width: 3px; border-color: blue">
+            <legend align="left" style="color: blue; font-weight: bold">Dades personals</legend>
+            <div>
+                <label for="iemail">E−Correu:</label>
+                <input type="text" name="email" id="iemail" placeholder="usuari@domini.org">
+                <label for="ifranjaedat">Franja d’edat: </label>
+                    <select name="edat" id="ifranjaedat">
+                        <option value="menor16">Menor que 16 anys</option>
+                        <option value="menor21">Entre 16 i 21 anys</option>
+                        <option value="major21">Major de 21 anys</option>
+                    </select>
+            </div>
+        </fieldset>
+        <div>
+            </br>
+            <input type="submit" value="Enviar">&nbsp;&nbsp;&nbsp;<input type="reset" value="Esborrar">
+        </div>
+    </form>
+</body>
+</html>

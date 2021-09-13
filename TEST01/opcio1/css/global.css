@@ -1,0 +1,112 @@
+/* TEST01 */
+
+.principal {
+    background-color: #FCE69C;
+    margin: 0 auto;
+    width: 55%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagen {
+    background-image: url("../imatges/cohet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+.cabecera1 {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #9CB2FC;
+}
+h1 {
+    color: #FCE69C;
+    padding-left: 255px;
+    text-shadow: black;
+    text-shadow: 1px 1px black;
+}
+.cabecera2 {
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    background-color: #9CB2FC;
+}
+h3 {
+    color: #FCE69C;
+    text-align: center;
+    text-shadow: black;
+    text-shadow: 1px 1px black;
+}
+.cabecera3 {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    background-color: #9CB2FC;
+}
+.texto01 {
+    font-size: 10px;
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+.caja01 {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 325px;
+    border: 1px solid black;
+    background-color: #9CB2FC;
+    display: inline-block;
+    vertical-align: top;
+}
+.caja02 {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: #9CB2FC;
+    display: inline-block;
+}
+.titulocaja {
+    margin-top: 0px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #143DB8;
+}
+.textocaja {
+    font-size: 10px;
+    padding: 0px 10px;
+    text-align: justify;
+    color: black;
+    background-color: #9CB2FC;
+}
+.cabecera4 {
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    background-color: #9CB2FC;
+    position: relative;
+}
+.box2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.caja03 {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 325px;
+    border: 1px solid black;
+    background-color: #9CB2FC;
+    display: inline-block
+}
+.caja04 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid black;
+    background-color: #9CB2FC;
+    display: inline-block;
+    vertical-align: top;
+}

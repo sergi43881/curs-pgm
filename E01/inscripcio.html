@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness Sports</title>
+</head>
+<body style="width: 75%; margin: 0 auto; text-align: center"> <!-- centrem pantalla -->
+
+    <!-- Capçalera títol general -->
+    <div style="border: solid 1px black; margin: 15px 0px 15px 0px; background-color: #C8482D;
+                font-size: 35px; font-family: Helvetica; color: #2DC88D">
+        Fitness sports
+    </div>
+
+    <!-- Capçalera navegació -->
+    <table style="width: 100%" border="1">
+        <tr>
+            <td><a href="index.html" title="Anar a inici" >Inici</a></td>
+            <td><a href="activitats.html" title="Veure les activitats" >Activitats</a></td>
+            <td><a href="horaris.html" title="Consulta els nostres horaris" >Horaris</a></td>
+            <td><a href="inscripcio.html" title="Vine amb nosaltres">Inscripció</a></td>
+        </tr>
+    </table>
+
+    <!-- Capçalera títol pàgina -->
+    <div style="font-size: 35px; font-weight: bold; text-decoration: underline; margin: 20px 0px 20px 0px">
+        Formulari d'inscripcio
+    </div>
+
+    <!-- Contingut pàgina -->
+    <form action="http://kalixtik.com/print.php" method="get" name="Formulari d'inscripció">
+
+        <!-- Marc fomulari -->
+        <fieldset style="border-width: 2px; border-color: black; text-align: left">
+
+        <!-- Nom -->
+        <div style="margin-bottom: 5px">
+            <label for="fnom">Nom:</label>
+            <input type="text" name="Nom" id="fnomb" placeholder="Nom">
+        </div>
+
+        <!-- Cognoms -->
+        <div style="margin-bottom: 5px">
+            <label for="fcognom">Cognoms:</label>
+            <input type="text" name="Cognoms" id="fcognom" placeholder="Cognoms">
+        </div>
+
+        <!-- DNI -->
+        <div style="margin-bottom: 5px">
+            <label for="fdni">DNI:</label>
+            <input type="text" name="DNI" id="fdni" placeholder="P.ex: 45987989X">
+        </div>
+
+        <!-- Usuari -->
+        <div style="margin-bottom: 5px">
+            <label for="fuser">Username:</label>
+            <input type="text" name="Usuari" id="fuser">
+        </div>
+
+        <!-- Password -->
+        <div style="margin-bottom: 5px">
+            <label for="fpass1">Clau:</label>
+            <input type="password" name="Password1" id="fpass1">
+
+        <!-- Password repeat -->
+            <label for="fpass2">Repetir Clau:</label>
+            <input type="password" name="Password2" id="fpass2">
+        </div>
+
+        <!-- Email -->
+        <div style="margin-bottom: 5px">
+            <label for="femail">Correu electrònic:</label>
+            <input type="email" name="Email" id="femail" placeholder="usuari@domini.org">
+        </div>
+
+        <!-- Freqüència d'activitat física -->
+        <div style="margin-bottom: 5px">
+            <label for="ffrecuencia">Freqüència d'activitat física:</label>
+            <select name="Freqüència_activitat" id="ffrecuencia">
+                <option value="Cada dues setmanes">Cada dues setmanes</option>
+                <option value="Dos dies per setmana">Dos dies per setmana</option>
+                <option value="Tres dies cada setmana">Tres dies cada setmana</option>
+                <option value="Quatre o mes díes per setmana">Quatre o mes díes per setmana</option>
+            </select>
+        </div>
+
+        <!-- Sexe -->
+        <div style="margin-bottom: 5px">
+            <label for="fradio">Sexe:</label>
+            <input type="radio" name="Sexe" id="fsexe" value="home">
+            <label for="fradio">Home</label>
+            <input type="radio" name="Sexe" id="fsexe" value="dona">
+            <label for="fradio">Dona</label>
+        </div>
+
+        <!-- Esports preferits -->
+        <div style="margin-bottom: 5px">
+            <label>Esports preferits:</label><br>
+            <input type="checkbox" name="Esports_preferits" value="Bicicleta">Bicicleta
+            <input type="checkbox" name="Esports_preferits" value="Atletisme">Atletisme
+            <input type="checkbox" name="Esports_preferits" value="Natació">Natació
+            <input type="checkbox" name="Esports_preferits" value="Fitness">Fitness
+        </div>
+
+        <!-- Comentaris -->
+        <div style="margin-bottom: 5px">
+            <label>Comentaris:</label><br>
+            <textarea name="Comentaris" rows="10" cols="50"></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Esborrar">
+        </div>
+    </form>
+</body>
+</html>

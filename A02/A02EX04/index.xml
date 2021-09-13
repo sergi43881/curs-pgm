@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hoteles>
+    <hotel>
+        <nombre>nombre 01</nombre>
+        <telefono>telefono 01</telefono>
+        <direccion>direccion 01</direccion>
+        <ciudad>ciudad 01</ciudad>
+        <pais>pais 01</pais>
+        <estrellas>estrellas 01</estrellas>
+        <descripcion>descripcion 01</descripcion>
+        <individual>Hab.Individual 01</individual>
+        <doble>Hab. Doble 01</doble>
+        <triple>Hab. Triple 01</triple>
+        <suit>suit 01</suit>
+    </hotel>
+    <hotel>
+        <nombre>nombre 02</nombre>
+        <telefono>telefono 02</telefono>
+        <direccion>direccion 02</direccion>
+        <ciudad>ciudad 02</ciudad>
+        <pais>pais 02</pais>
+        <estrellas>estrellas 02</estrellas>
+        <descripcion>descripcion 02</descripcion>
+        <individual>Hab.Individual 02</individual>
+        <doble>Hab. Doble 02</doble>
+        <triple>Hab. Triple 02</triple>
+        <suit>suit 02</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 03</nombre>
+        <telefono>telefono 03</telefono>
+        <direccion>direccion 03</direccion>
+        <ciudad>ciudad 03</ciudad>
+        <pais>pais 03</pais>
+        <estrellas>estrellas 03</estrellas>
+        <descripcion>descripcion 03</descripcion>
+        <individual>Hab.Individual 03</individual>
+        <doble>Hab. Doble 03</doble>
+        <triple>Hab. Triple 03</triple>
+        <suit>suit 03</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 04</nombre>
+        <telefono>telefono 04</telefono>
+        <direccion>direccion 04</direccion>
+        <ciudad>ciudad 04</ciudad>
+        <pais>pais 04</pais>
+        <estrellas>estrellas 04</estrellas>
+        <descripcion>descripcion 04</descripcion>
+        <individual>Hab.Individual 04</individual>
+        <doble>Hab. Doble 04</doble>
+        <triple>Hab. Triple 04</triple>
+        <suit>suit 04</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 05</nombre>
+        <telefono>telefono 05</telefono>
+        <direccion>direccion 05</direccion>
+        <ciudad>ciudad 05</ciudad>
+        <pais>pais 05</pais>
+        <estrellas>estrellas 05</estrellas>
+        <descripcion>descripcion 05</descripcion>
+        <individual>Hab.Individual 05</individual>
+        <doble>Hab. Doble 05</doble>
+        <triple>Hab. Triple 05</triple>
+        <suit>suit 05</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 06</nombre>
+        <telefono>telefono 06</telefono>
+        <direccion>direccion 06</direccion>
+        <ciudad>ciudad 06</ciudad>
+        <pais>pais 06</pais>
+        <estrellas>estrellas 06</estrellas>
+        <descripcion>descripcion 06</descripcion>
+        <individual>Hab.Individual 06</individual>
+        <doble>Hab. Doble 06</doble>
+        <triple>Hab. Triple 06</triple>
+        <suit>suit 06</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 07</nombre>
+        <telefono>telefono 07</telefono>
+        <direccion>direccion 07</direccion>
+        <ciudad>ciudad 07</ciudad>
+        <pais>pais 07</pais>
+        <estrellas>estrellas 07</estrellas>
+        <descripcion>descripcion 07</descripcion>
+        <individual>Hab.Individual 07</individual>
+        <doble>Hab. Doble 07</doble>
+        <triple>Hab. Triple 07</triple>
+        <suit>suit 07</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 08</nombre>
+        <telefono>telefono 08</telefono>
+        <direccion>direccion 08</direccion>
+        <ciudad>ciudad 08</ciudad>
+        <pais>pais 08</pais>
+        <estrellas>estrellas 08</estrellas>
+        <descripcion>descripcion 08</descripcion>
+        <individual>Hab.Individual 08</individual>
+        <doble>Hab. Doble 08</doble>
+        <triple>Hab. Triple 08</triple>
+        <suit>suit 08</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 09</nombre>
+        <telefono>telefono 09</telefono>
+        <direccion>direccion 09</direccion>
+        <ciudad>ciudad 09</ciudad>
+        <pais>pais 09</pais>
+        <estrellas>estrellas 09</estrellas>
+        <descripcion>descripcion 09</descripcion>
+        <individual>Hab.Individual 09</individual>
+        <doble>Hab. Doble 09</doble>
+        <triple>Hab. Triple 09</triple>
+        <suit>suit 09</suit>
+        </hotel>
+    <hotel>
+        <nombre>nombre 10</nombre>
+        <telefono>telefono 10</telefono>
+        <direccion>direccion 10</direccion>
+        <ciudad>ciudad 10</ciudad>
+        <pais>pais 10</pais>
+        <estrellas>estrellas 10</estrellas>
+        <descripcion>descripcion 10</descripcion>
+        <individual>Hab.Individual 10</individual>
+        <doble>Hab. Doble 10</doble>
+        <triple>Hab. Triple 10</triple>
+        <suit>suit 10</suit>
+    </hotel>
+</hoteles>

@@ -1,0 +1,128 @@
+/* TEST05 */
+
+@font-face {
+    font-family: oldfont;
+    src: url('../fonts/TravelingTypewriter.ttf')
+}
+.principal {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: justify;
+}
+.imgleft {
+    width: 50px;
+    height: 715px;
+    margin-left: 50px;
+    background-image: url(../imatges/chip-arriba.jpg);
+    background-repeat: repeat-y;
+    background-size: 40px 80px;
+    float: left;
+}
+.imgright {
+    width: 50px;
+    height: 715px;
+    margin-right: 50px;
+    background-image: url(../imatges/chip-abajo.jpg);
+    background-repeat: repeat-y;
+    background-size: 40px 80px;
+    float: right;
+}
+.center {
+    width: 1000px;
+    display: inline-block;
+}
+.cabecera {
+    width: 750px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 0px 0px 0px;
+}
+.letra {
+    color: #0000FF;
+    font-size: 40px;
+    float:left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.parte01 {
+    width: 900px;
+    margin: 20px 0px 20px 50px;
+}
+.foto01 {
+    width: 105px;
+    height: 125px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.sub01 {
+    width: 748px;
+    margin-left: 10px;
+    background-color: #ACDAE4;
+    display: inline-block;
+}
+.cab01 p {
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 0px;
+}
+.text01 {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.cab01, .cab02, .cab03 {
+    height: 20px;
+    background-color: #0000FF;
+    color: white;
+    font-family: oldfont;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.parte02, .parte03 {
+    width: 880px;
+    margin: 20px 0px 0px 50px;
+    background-color: #ACDAE4;
+}
+.sub02, .sub03 {
+    width: 730px;
+    background-color: #ACDAE4;
+    display: inline-block;
+}
+.sub02 p, .sub03 p {
+    margin: 0px;
+    padding-top: 10px;
+}
+.foto02, .foto03 {
+    width: 105px;
+    height: 125px;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 0px 10px 5px 10px;
+    background-color: white;
+    display: inline-block;
+}
+.info {
+    margin: 20px 0px 0px 50px;
+    line-height: 2px;
+    font-style: italic;
+    font-size: 10px;
+}
+.bold {
+    text-decoration: underline red 2px;
+    font-weight: bold;
+}
+.red {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+.big {
+    font-weight: bold;
+    font-size: 15px;
+}

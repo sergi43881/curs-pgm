@@ -1,0 +1,33 @@
+/* Exercici A09EX04 */
+
+/* Atributs generals */
+* {
+    background-color: #CFC;
+    font-family: Georgia, Cambria, serif;
+    color: #00F;
+    font-size: 16px;
+}
+/* Titol principal */
+.cabecera1 {
+    color: #F00D00;
+    font-size: 32px;
+    font-weight: bold;
+}
+/* Titols secundaris */
+.cabecera2 {
+    color: #A00;
+    font-family: verdana, calibri, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+em {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+strong {
+    font-size: 20px;
+}
+li span {
+    color: #060;
+}

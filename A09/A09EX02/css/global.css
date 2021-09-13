@@ -1,0 +1,24 @@
+/* Exercici A09EX02 */
+
+.style01 {
+    height:5px;
+    width:50%;
+}
+.style02 {
+    height:25px;
+    width:50px
+}
+.style03 {
+    height:10px;
+    width:75%;
+    background-color:blue;
+    margin-left:0
+}
+.style04 {
+    height:50px;
+    width:60%;
+    background-color:red;
+    border-width:10px;
+    border-color:green;
+    margin-right:0;
+}

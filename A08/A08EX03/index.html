@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A08EX03</title>
+</head>
+<body>
+    <form name="A08EX03" method="get" action="http://kalixtik.com/print.php">
+
+    <div style="font-size: 32px; font-weight: bold; margin-bottom: 20px">Formulario de registro</div>
+
+    <!-- Nombre -->
+        <div style="margin-bottom: 20px"><label for="fnomb">Nombre</label>
+        <input type="text" name="nom" id="fnomb"></div>
+
+    <!-- Apellidos -->
+        <div style="margin-bottom: 20px"><label for="fcognomb">Apellidos</label>
+        <input type="text" name="cognom" id="fcognomb"></div>
+
+    <!-- Sexo -->
+        <div style="margin-bottom: 20px"><label for="fradio">Sexo</label>
+        <input type="radio" name="sexe" id="fsexe" value="hombre">
+        <label for="fradio">hombre</label>
+        <input type="radio" name="sexe" id="fsexe" value="mujer">
+        <label for="fradio">mujer</label></div>
+
+    <!-- Correo -->
+        <div style="margin-bottom: 20px"><label for="femail">Correo</label>
+        <input type="email" name="email" id="femail"></div>
+
+    <!-- Población -->
+        <div style="margin-bottom: 20px"><label for="fpoblacion">Población</label>
+            <select name="poblacion" id="fpoblacion">
+                <option value="Tortosa">Tortosa</option>
+                <option value="Reus">Reus</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Calafell">Calafell</option>
+                <option value="Terrassa">Terrassa</option>
+            </select></div>
+
+    <!-- Exemple de Textarea -->
+        <div style="margin-bottom: 20px"><label>Descripción</label>
+        <textarea name="descripcion" rows="6" cols="60"></textarea></div>
+
+    <!-- Aceptacion de informacion -->
+        <div style="margin-bottom: 20px"><input style="color: #EEEBF4" type="checkbox" name="info" value="quiere informacion">Deseo recibir información sobre novedades y ofertas</div>
+
+    <!-- Aceptacion proteccion de datos -->
+        <div style="margin-bottom: 20px"><input style="color: #EEEBF4" type="checkbox" name="datos" value="acepta politica privacidad">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</div>
+
+    <!-- Buttons -->
+        <div><input type="submit" value="Enviar"></div>
+    </form>
+</body>
+</html>

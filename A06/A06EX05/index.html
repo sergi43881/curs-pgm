@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercici A06EX05</title>
+</head>
+<body>
+    <h1>Fusión de filas</h1>
+    <!-- alto de fila=10. Se multiplica el alto, por cada celda de la tabla combinada verticalmente
+         con "rowspan" Ejemplo: si se combinan 3 celdas se multiplica el alto de celda (10)*3=30 -->
+    <table border="1">
+        <tr>
+            <td width="40" height="10">A</td>
+            <td width="40" height="10">B</td>
+            <td width="40" height="30" rowspan="3">C</td>
+            <td width="40" height="10">D</td>
+        </tr>
+        <tr>
+            <td width="40" height="20" rowspan="2">E</td>
+            <td width="40" height="10">F</td>
+            <td width="40" height="30" rowspan="3">G</td>
+        </tr>
+        <tr>
+            <td width="40" height="10">H</td>
+        </tr>
+        <tr>
+            <td width="40" height="10">I</td>
+            <td width="40" height="10">J</td>
+            <td width="40" height="10">K</td>
+        </tr>
+    </table>
+</body>
+</html>

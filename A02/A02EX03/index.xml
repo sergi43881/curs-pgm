@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportes>
+    <producto>
+        <articulo>articulo 01</articulo>
+        <color>color 01</color>
+        <talla>talla 01</talla>
+        <precio>precio 01</precio>
+        <cantidad>cantidad 01</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 02</articulo>
+        <color>color 02</color>
+        <talla>talla 02</talla>
+        <precio>precio 02</precio>
+        <cantidad>cantidad 02</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 03</articulo>
+        <color>color 03</color>
+        <talla>talla 03</talla>
+        <precio>precio 03</precio>
+        <cantidad>cantidad 03</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 04</articulo>
+        <color>color 04</color>
+        <talla>talla 04</talla>
+        <precio>precio 04</precio>
+        <cantidad>cantidad 04</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 05</articulo>
+        <color>color 05</color>
+        <talla>talla 05</talla>
+        <precio>precio 05</precio>
+        <cantidad>cantidad 05</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 06</articulo>
+        <color>color 06</color>
+        <talla>talla 06</talla>
+        <precio>precio 06</precio>
+        <cantidad>cantidad 06</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 07</articulo>
+        <color>color 07</color>
+        <talla>talla 07</talla>
+        <precio>precio 07</precio>
+        <cantidad>cantidad 07</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 08</articulo>
+        <color>color 08</color>
+        <talla>talla 08</talla>
+        <precio>precio 08</precio>
+        <cantidad>cantidad 08</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 09</articulo>
+        <color>color 09</color>
+        <talla>talla 09</talla>
+        <precio>precio 09</precio>
+        <cantidad>cantidad 09</cantidad>
+        </producto>
+    <producto>
+        <articulo>articulo 10</articulo>
+        <color>color 10</color>
+        <talla>talla 10</talla>
+        <precio>precio 10</precio>
+        <cantidad>cantidad 10</cantidad>
+    </producto>
+</deportes>

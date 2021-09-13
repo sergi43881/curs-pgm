@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A08EX01</title>
+</head>
+<body style="margin: 0 40% 0 40%"> <!-- centrado en pantalla -->
+
+    <form style="background-color: #FFFEE0" name="A08EX01" method="get" action="http://kalixtik.com/print.php">
+
+    <div style="font-size: 32px; font-weight: bold; margin-bottom: 10px">Formulari via GET</div>
+
+    <!-- Exemple de Text -->
+        <div style="font-size: 19px; font-weight: bold; margin-bottom: 10px">Exemple de Text</div>
+        <div style="margin-bottom: 10px"><label for="fnomb">Com et dius?</label></div>
+        <div style="margin-bottom: 10px"><input type="text" name="nom" id="fnomb"></div>
+
+    <!-- Exemple de Password -->
+        <div style="font-size: 19px; font-weight: bold; margin-bottom: 10px">Exemple de Password</div>
+        <div style="margin-bottom: 10px"><label for="fpass">Clau d'accés</label></div>
+        <div style="margin-bottom: 10px"><input type="password" name="contrasenya" id="fpass"></div>
+
+    <!-- Exemple de Radio button -->
+        <div style="font-size: 19px; font-weight: bold; margin-bottom: 10px">Exemple de Radio</div>
+        <div><label for="fradio">Tria una opció</label></div>
+        <div><input type="radio" name="opcio" id="fradio" value="opcio_A">
+             <label for="fradio">Opció A</label></div>
+        <div><input type="radio" name="opcio" id="fradio" value="opcio_B">
+             <label for="fradio">Opció B</label></div>
+        <div style="margin-bottom: 10px"><input type="radio" name="opcio" id="fradio" value="opcio_C">
+             <label for="fradio">Opció C</label></div>
+
+    <!-- Exemple de Checkbox -->
+        <div style="font-size: 19px; font-weight: bold; margin-bottom: 10px">Exemple de Checkbox</div>
+        <div style="margin-bottom: 10px">Marca la casella si t'agrada el pernil
+            <input style="color: #EEEBF4" type="checkbox" name="pernil" value="L'hi agrada el pernil"></div>
+
+    <!-- Exemple de Select -->
+        <div style="font-size: 19px; font-weight: bold; margin-bottom: 10px">Exemple de select</div>
+        <div style="margin-bottom: 10px"><label for="fmes">Quin mes vas neixer?</label></div>
+            <div style="margin-bottom: 10px">
+                <select style="background-color: #EEEBF4" name="mes_naixement" id="fmes">
+                    <option value="Gener">Gener</option>
+                    <option value="Febrer">Febrer</option>
+                    <option value="Març">Març</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Maig">Maig</option>
+                    <option value="Juny">Juny</option>
+                    <option value="Juliol">Juliol</option>
+                    <option value="Agost">Agost</option>
+                    <option value="Setembre">Setembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option value="Novembre">Novembre</option>
+                    <option value="Desembre">Desembre</option>
+            </select></div>
+
+    <!-- Exemple de Textarea -->
+        <div style="font-size: 19px; font-weight: bold; margin-bottom: 10px">Exemple de textarea</div>
+        <div style="margin-bottom: 10px"><label>Explica aqui la teva vida</label></div>
+        <div><textarea name="comentaris" rows="3" cols="15"></textarea></div>
+
+        <hr style="height: 1px; background-color: black; margin-bottom: 30px">
+
+    <!-- Buttons -->
+        <div><input style="margin-bottom: 2px" type="submit" value="Enviar"></div>
+        <div><input type="reset" value="Borrar"></div>
+
+        <hr style="height: 3px; background-color: black">
+    </form>
+</body>
+</html>

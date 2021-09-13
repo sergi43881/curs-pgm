@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/global.css">
+    <title>A11EX04</title>
+</head>
+<body>
+    <h1>iDESWEB</h1>
+    <h3>Formulario de registro</h3>
+
+    <form name="A11EX04" method="get" action="http://kalixtik.com/print.php">
+
+        <!-- Parte 1 del formulario -->
+        <fieldset class="marco">
+        <legend>¿QUIEN ERES?</legend>
+            <!-- Nombre -->
+            <div><label for="fnombre">Nombre</label></div>
+            <div><input type="text" name="Nombre" id="fnombre" required autofocus></div>
+            <!-- Apellidos -->
+            <div><label for="fapellidos">Nombre</label></div>
+            <div><input type="text" name="Apellidos" id="fapellidos" required></div>
+            <!-- Email -->
+            <div><label for="femail">Correo electrónico</label></div>
+            <div><input type="text" name="Email" id="femail" required></div>
+            <!-- Fecha nacimiento -->
+            <div><label for="fnacimieneto">Fecha de nacimiento</label></div>
+            <div><input type="date" name="F_Nacimiento" id="fnacimiento" required></div>
+        </fieldset>
+
+        <!-- Parte 2 del formulario -->
+        <fieldset class="marco">
+        <legend>¿DE DONDE ERES?</legend>
+            <!-- Ciudad -->
+            <div><label for="fciudad">Ciudad</label></div>
+            <div><input type="text" name="Ciudad" id="fciudad" required></div>
+            <!-- Codigo postal -->
+            <div><label for="fcodpos">Codigo postal</label></div>
+            <div><input type="text" name="Codigo_postal" id="fcodpos" required pattern="[0-9]{5}"></div>
+            <!-- Pais -->
+            <div><label for="fpais">Pais</label></div>
+            <div>
+                <select name="Pais" id="fpais" required>
+                    <option value="España">España</option>
+                    <option value="Resto del mundo">Resto del mundo</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <!-- Parte 3 del formulario -->
+        <fieldset class="marco">
+        <legend>¿COMO QUIERES INICAR SESION?</legend>
+            <!-- Usuario -->
+            <div><label for="fusuario">Nombre de usuario</label></div>
+            <div><input type="text" name="Usuario" id="fusuario" required></div>
+            <!-- Contraseña 01 -->
+            <div><label for="fpass01">Contraseña</label></div>
+            <div><input type="password" name="Password01" id="fpass01" required></div>
+            <!-- Contraseña 02 -->
+            <div><label for="fpass02">Vuelve a escribir la contraseña</label></div>
+            <div><input type="password" name="Password02" id="fpass02" required></div>
+        </fieldset>
+
+        <!-- Parte 4 del formulario -->
+        <fieldset class="marco">
+        <legend>CONDICIONES DE REGISTO</legend>
+            <!-- Recibir ofertas -->
+            <div><label for="foferta">Deseo recibir ofertas de IDESWEB</label></div>
+            <div>
+                <input type="radio" name="Oferta" id="foferta" value="Una_vez_al_dia">
+                <label for="foferta">Una vez al día</label>
+                <input type="radio" name="Oferta" id="foferta" value="Una_vez_a_la_semana">
+                <label for="foferta">Una vez a la semana</label>
+                <input type="radio" name="Oferta" id="foferta" value="Una_vez_al_mes">
+                <label for="foferta">Una vez al mes</label>
+            </div>
+            <div>
+                <input type="checkbox" name="privacidad" id="fprivacidad" value="Privacidad_aceptada" required>
+                <label for="fprivacidad">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración del uso de cookies</label>
+            </div>
+        </fieldset>
+
+        <!-- Buttons -->
+        <div>
+            <input class="botones" type="submit" value="Crear cuenta">
+        </div>
+
+    </form>
+</body>
+</html>

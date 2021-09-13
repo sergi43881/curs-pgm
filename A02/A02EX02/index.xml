@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>libro 01</titulo>
+        <autor>autor 01</autor>
+        <isbn>isbn 01</isbn>
+        <editorial>editorial 01</editorial>
+        <publicacion>publicacion 01</publicacion>
+        <descripcion>descripcion 01</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 02</titulo>
+        <autor>autor 02</autor>
+        <isbn>isbn 02</isbn>
+        <editorial>editorial 02</editorial>
+        <publicacion>publicacion 02</publicacion>
+        <descripcion>descripcion 02</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 03</titulo>
+        <autor>autor 03</autor>
+        <isbn>isbn 03</isbn>
+        <editorial>editorial 03</editorial>
+        <publicacion>publicacion 03</publicacion>
+        <descripcion>descripcion 03</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 04</titulo>
+        <autor>autor 04</autor>
+        <isbn>isbn 04</isbn>
+        <editorial>editorial 04</editorial>
+        <publicacion>publicacion 04</publicacion>
+        <descripcion>descripcion 04</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 05</titulo>
+        <autor>autor 05</autor>
+        <isbn>isbn 05</isbn>
+        <editorial>editorial 05</editorial>
+        <publicacion>publicacion 05</publicacion>
+        <descripcion>descripcion 05</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 06</titulo>
+        <autor>autor 06</autor>
+        <isbn>isbn 06</isbn>
+        <editorial>editorial 06</editorial>
+        <publicacion>publicacion 06</publicacion>
+        <descripcion>descripcion 06</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 07</titulo>
+        <autor>autor 07</autor>
+        <isbn>isbn 07</isbn>
+        <editorial>editorial 07</editorial>
+        <publicacion>publicacion 07</publicacion>
+        <descripcion>descripcion 07</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 08</titulo>
+        <autor>autor 08</autor>
+        <isbn>isbn 08</isbn>
+        <editorial>editorial 08</editorial>
+        <publicacion>publicacion 08</publicacion>
+        <descripcion>descripcion 08</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 09</titulo>
+        <autor>autor 09</autor>
+        <isbn>isbn 09</isbn>
+        <editorial>editorial 09</editorial>
+        <publicacion>publicacion 09</publicacion>
+        <descripcion>descripcion 09</descripcion>
+    </libro>
+    <libro>
+        <titulo>libro 10</titulo>
+        <autor>autor 10</autor>
+        <isbn>isbn 10</isbn>
+        <editorial>editorial 10</editorial>
+        <publicacion>publicacion 10</publicacion>
+        <descripcion>descripcion 10</descripcion>
+    </libro>
+    </biblioteca>

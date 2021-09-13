@@ -1,0 +1,74 @@
+/* proves display */
+
+.cuadro0 {
+    width: 400px;
+    height:250px;
+    background-color: blue;
+}
+.cuadro1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
+.cuadro2 {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display: inline-block;
+}
+.cuadro201 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.cuadro3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+}
+.cuadro4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+}
+.cuadro5 {
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+.cuadro6 {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    display: inline-block;
+}
+.cuadro601 {
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    display: inline-block;
+    color:white;
+}
+.cuadro7 {
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    display: inline-block;
+}
+.cuadro8 {
+    width: 75px;
+    height: 75px;
+    background-color: grey;
+    display: inline-block;
+}
+.cuadro9 {
+    width: 75px;
+    height: 75px;
+    background-color: orange;
+}

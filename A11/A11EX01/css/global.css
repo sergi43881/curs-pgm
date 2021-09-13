@@ -1,0 +1,13 @@
+/* Exercici A11EX01 */
+a {
+    background-color: blue;
+    width:100px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    display: block;
+}
+a:hover, a:focus {
+    outline: 3px solid red;
+}

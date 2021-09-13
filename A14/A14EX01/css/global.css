@@ -1,0 +1,26 @@
+/* A14EX01 */
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: #C4C4C3;
+}
+td, tr, th{
+    border: 2px solid black;
+    padding: 8px 2px;
+    text-align: center;
+}
+img {
+    float: left;
+    height: 15px;
+    padding: 2px 3px 0px 0px;
+}
+.trcolor {
+    background-color: #FAFAB5;
+}
+.tdcolor {
+    background-color: #E5F7FF;
+    font-weight: bold;
+    text-align: left;
+}

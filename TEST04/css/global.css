@@ -1,0 +1,129 @@
+/* TEST04 */
+
+.principal {
+    width: 1200px;
+    height: 1395px;
+    margin: 0 auto;
+    background-color: #FCA684;
+    font-family: Arial;
+}
+.left {
+    width: 80px;
+    height: 1395px;
+    background-image: url(../img/copyright.svg);
+    background-size: 80px 80px;
+    float: left;
+}
+.right {
+    width: 80px;
+    height: 1395px;
+    background-image: url(../img/public-domain.svg);
+    background-size: 80px 80px;
+    float: right;
+}
+.center {
+    width: 1040px;
+    height: 1395px;
+    display: inline-block;
+}
+.cabecera {
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.cabtext {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+.cabtext>span {
+    color: black;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px -4px white;
+    margin: 0px;
+}
+.part01, .part02, .part03 {
+    width: 800px;
+    margin: 0 auto;
+    border: 5px solid black;
+    background-color: #FCCABB;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 15px;
+}
+.cab01, .cab02, .cab03 {
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    margin: -1px;
+}
+h2 {
+    color: white;
+    margin: 2px 0px 0px 10px;
+}
+.part01 p, .part02 p, .part03 p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+.emoji {
+    font-size: 2rem;
+    margin: 0px 0px 0px 50px;
+    float: left;
+}
+.emojitext {
+    font-style: oblique;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.white {
+    background-color: white;
+}
+.underline {
+    text-decoration: underline dashed 3px;
+}
+.positionleft {
+    width: 620px;
+    vertical-align: top;
+    margin-top: 0px;
+    display: inline-block;
+}
+.positionleft p {
+    margin-top: 0px;
+}
+.img01 {
+    border-radius: 20px;
+    width: 170px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.img02 {
+    border-radius: 20px;
+    width: 170px;
+    height: 220px;
+    margin-left: 10px;
+}
+.positionright {
+    width: 585px;
+    vertical-align: top;
+    margin-top: 0px;
+    display: inline-block;
+}
+.positionright p {
+    margin-top: 0px;
+}
+.info {
+    width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+.fontwhite {
+    color: white;
+}

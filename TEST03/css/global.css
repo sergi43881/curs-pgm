@@ -1,0 +1,134 @@
+/* TEST03 */
+@font-face {
+    font-family: monoton;
+    src: url('../fonts/monoton.woff2')
+}
+@font-face {
+    font-family: oldfont;
+    src: url('../fonts/TravelingTypewriter.ttf')
+}
+.principal {
+    width: 1220px;
+    margin: 0 auto;
+    font-family: oldfont;
+}
+.borde_left {
+    float: left;
+    height: 1441px;
+    width: 110px;
+    background-image: url("../img/matrix.png")
+}
+.borde_right {
+    float: right;
+    height: 1441px;
+    width: 110px;
+    background-image: url("../img/matrix2.png")
+}
+.centro {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    display: inline-block;
+}
+.titulo {
+    font-family: monoton;
+    text-decoration: underline solid #05C705 0.1px;
+    color: #05C705;
+    font-weight: none;
+    font-size: 40px;
+    margin: 10px 0px 0px 90px;
+}
+hr {
+    width: 827px;
+    height: 2px;
+    border-width:0;
+    background-color:#05C705;
+    margin: 10px 0px 0px 90px;
+}
+.titulo2 {
+    width: 270px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 45px;
+    color:#05C705;
+    font-family: arial;
+}
+.parte01, .parte02, .parte03 {
+    width: 950px;
+    border: 2px solid white;
+    margin: 25px;
+}
+.cab01, .cab02, .cab03 {
+    width: 946px;
+    height: 25px;
+    background-color: #05C705;
+    border-bottom: 2px solid white;
+    color: white;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.text01, .text02, .text03 {
+    width: 670px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+.foto01 {
+    width: 250px;
+    height: 210px;
+    border: 5px solid #05C705;
+    margin: 15px 5px 0px 0px;
+    float: right;
+}
+.foto02 {
+    width: 250px;
+    height: 290px;
+    border: 5px solid #05C705;
+    margin: 15px 0px 0px 5px;
+    float: left;
+}
+.foto03 {
+    width: 250px;
+    height: 310px;
+    border: 5px solid #05C705;
+    margin: 15px 5px 0px 0px;
+    float: right;
+}
+.img01 {
+    width: 240px;
+    height: 200px;
+    border: 5px solid white;
+}
+.img02 {
+    width: 240px;
+    height: 280px;
+    border: 5px solid white;
+}
+.img03 {
+    width: 240px;
+    height: 300px;
+    border: 5px solid white;
+}
+.info {
+    width: 953px;
+    border-top: 2px solid #05C705;
+    border-bottom: 3px solid #05C705;
+    color: white;
+    font-size: 14px;
+    line-height: 2px;
+    margin: 10px 30px 0px 25px;
+}
+.yellow {
+    color: yellow;
+    font-weight: bold;
+}
+.red {
+    color: red;
+    font-weight: bold;
+}
+.green {
+    color: green;
+    font-weight: bold;
+}

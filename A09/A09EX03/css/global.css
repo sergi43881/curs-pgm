@@ -1,0 +1,40 @@
+/* Exercici A09EX03 */
+
+body {
+    background-color: grey;
+}
+.style01 {
+    font-size:xx-large;
+    color:#000000;
+    font-weight: bold;
+}
+.style02 {
+    font-size:xx-large;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+.style03 {
+    font-size:xx-large;
+    color:#FF0000;
+    font-weight: bold;
+}
+.style04 {
+    font-size:xx-large;
+    color:#00FF00;
+    font-weight: bold;
+}
+.style05 {
+    font-size:xx-large;
+    color:#0000FF;
+    font-weight: bold;
+}
+.style06 {
+    font-size:xx-large;
+    color:#FFFF00;
+    font-weight: bold;
+}
+.style07 {
+    font-size:xx-large;
+    color:#FF00FF;
+    font-weight: bold;
+}

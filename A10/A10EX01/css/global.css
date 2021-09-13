@@ -1,0 +1,39 @@
+/* Exercici A10EX01 */
+
+/* --- Agrupament de selectors */
+div, p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- Selector de tipus */
+a {
+    color: #C30;
+}
+
+/* --- Selector de identificador */
+#primero {
+    color: #369;
+}
+
+/* --- Selector de identificador */
+#segundo {
+    color: #555;
+}
+
+/* --- Selector de clase */
+.especial {
+    background-color: #000000;
+    color: #FFFF00;
+}
+
+/* --- Selector fill */
+p > span {
+    font-weight: bold;
+}
+
+/* --- Selector descendents */
+#primero em {
+    color: #0000BB;
+    background-color: #FFFFCC;
+}

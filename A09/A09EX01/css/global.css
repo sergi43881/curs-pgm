@@ -1,0 +1,35 @@
+/* Exercici A09EX01 */
+
+.size40 {
+    font-size: 40px;
+}
+.sizesmall {
+    font-size: small;
+}
+.sizemedium {
+    font-size: medium;
+}
+.sizelarge {
+    font-size: large;
+}
+.sizexxlarge {
+    font-size: xx-large;
+}
+.sizexxsmall {
+    font-size: xx-small;
+}
+.size002_p100 {
+    font-size: 2%;
+}
+.size020_p100 {
+    font-size: 20%;
+}
+.size080_p100 {
+    font-size: 80%;
+}
+.size200_p100 {
+    font-size: 200%;
+}
+.size300_p100 {
+    font-size: 300%;
+}

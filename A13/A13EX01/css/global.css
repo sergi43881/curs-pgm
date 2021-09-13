@@ -1,0 +1,93 @@
+/* A13EX01 */
+
+body {
+    font-family: sans-serif;
+    background-color: #F3F3CC;
+}
+/* Cabecera ---------------------- */
+.part01 {
+    margin: 0;
+}
+.cabp01 h1 {
+    height: auto;
+    margin: 0px 0px 20px 0px;
+    background-color: #9EB847;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/* Botones de navegacion --------- */
+nav {
+    margin: 0px 0px 20px 0px;
+}
+.botnav {
+    background-color: #C87533;
+    margin: 0.75em;
+    padding: 8px 25px;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+/* Cuerpo (partes) --------- */
+.part02 {
+    border: 2px solid grey;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 10px 15px 10px;
+}
+.cabp02 h2{
+    margin: 10px 0px 0px 0px;
+    height: 35px;
+    background-color: #9EB847;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: url("../imatges/debian.png");
+    background-repeat: space;
+    background-size: 15px 15px;
+}
+.cabp03 h2{
+    margin: 10px 0px 0px 0px;
+    height: 35px;
+    background-color: #9EB847;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: url("../imatges/ubuntu.png");
+    background-repeat: space;
+    background-size: 15px 15px;
+}
+.cabp04 h2{
+    margin: 10px 0px 0px 0px;
+    height: 35px;
+    background-color: #9EB847;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: url("../imatges/fedora.png");
+    background-repeat: space;
+    background-size: 15px 15px;
+}
+.dosnav {
+    background-color: #C87533;
+    padding: 5px;
+    border: 2px solid grey;
+}
+p {
+    text-align: justify;
+    font-size: 12px;
+}
+a:link, a:hover, a:visited, a:active {
+    text-decoration:none;
+    font-weight: bold;
+}
+a:link, a:visited, a:active {
+    color: white;
+}
+a:hover {
+    color: blue;
+}

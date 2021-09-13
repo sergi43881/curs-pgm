@@ -1,0 +1,144 @@
+/*EXAMEN*/
+
+.principal {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #96E9BF;
+    border: 1px solid black;
+    font-family: arial;
+    font-size: 12px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 7px -7px 4px #1C7E4C;
+    margin: 3px;
+}
+.parte01 {
+    width: 700px;
+    margin: 0 auto;
+    border-left: 3px solid #1C7E4C;
+    border-right: 3px solid #1C7E4C;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+hr {
+    width: 400px;
+    background-color: #1C7E4C;
+    margin-top: 10px;
+    height: 3px;
+    border-width:0;
+    background-color: #1C7E4C
+}
+.parte02 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.foto01 {
+    width: 150px;
+    height: 190px;
+    float: left;
+}
+.sub0201 {
+    width: 730px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: justify;
+}
+h3 {
+    font-size: 23px;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier;
+}
+.sub0202 {
+    width: 665px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: justify;
+}
+.sub0202 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.foto02 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+.sub0203 {
+    width: 900px;
+    text-align: justify;
+}
+.parte03 {
+    width: 900px;
+    margin: 0 auto;
+}
+.sub0301 {
+    width: 730px;
+    display: inline-block;
+    text-align: justify;
+}
+.sub0301 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.foto03 {
+    width: 150px;
+    height: 190px;
+    float: right;
+}
+.sub0302 {
+    width: 730px;
+    text-align: justify;
+}
+.sub0302 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.foto04 {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-right: 7px;
+    float: left;
+}
+.sub0303 {
+    width: 900px;
+    text-align: justify;
+}
+.info {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 9px;
+    line-height: 0.3;
+    padding-top: 15px;
+}
+.hrlong {
+    width: 900px;
+    background-color: #1C7E4C;
+    margin-top: 10px;
+    height: 3px;
+    border-width:0;
+    background-color: #1C7E4C
+}
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
+    padding: 1px;
+    text-decoration-line: underline;
+    border-bottom: 0.5px solid red;
+}
+.blue {
+    color: blue;
+}
+.cuadro {
+    border: 0.5px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}

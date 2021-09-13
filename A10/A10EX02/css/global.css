@@ -1,0 +1,68 @@
+/* Exercici A10EX01 */
+
+/* --- Agrupament de selectors */
+table, td, tr {
+    font-size: 16px;
+}
+
+/* --- Selector de tipus */
+td {
+    background-color: blue;
+}
+
+/* --- Selector de identificador */
+#tred {
+    color: red;
+}
+
+/* --- Selector fill */
+tr > td {
+    font-weight: bold;
+}
+
+/* --- Selector descendents */
+.blue td {
+    background-color: white;
+}
+
+/* --- Selectors de clase: Colors de text */
+.tteal {
+    color: teal;
+}
+
+.tblue {
+    color: blue;
+}
+
+.torange {
+    color: orange;
+}
+
+.tpurple {
+    color: purple;
+}
+
+.tolive {
+    color: olive;
+}
+
+.tfuchsia {
+    color: fuchsia;
+}
+
+.tgreen {
+    color: green;
+}
+
+/* --- Selectors de clases: Color de fons */
+.bwhite {
+    background-color: white;
+}
+
+.bred {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}

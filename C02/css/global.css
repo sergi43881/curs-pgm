@@ -1,0 +1,84 @@
+/* Exercici C02 */
+
+/* --- Selector tipo (Centre pantalla i Background general)-- */
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: skyblue;
+    background-image: url("../imatges/fondo01.jpg");
+}
+
+/* --- Selectors de clase:*/
+.uno {
+    margin-top: 50px;
+    border-top-style: solid;  border-right-style: dashed; border-bottom-style: solid; border-left-style: dashed;
+    border-top-color: yellowgreen; border-right-color: yellowgreen; border-bottom-color: yellowgreen;  border-left-color: yellowgreen;
+    border-top-width: 4px;    border-right-width: 7px;    border-bottom-width: 7px;    border-left-width: 4px;
+    padding-top: 5px;         padding-right: 25px;        padding-bottom: 5px;         padding-left: 25px;
+    color: red;
+    text-align: justify;
+    background-color: black;
+    opacity: 0.4;
+}
+.dos {
+    margin-top: 50px;
+    border-style: solid dashed solid dashed;
+    border-color: yellowgreen;
+    border-width: 4px 7px 7px 4px;
+    padding: 5px 25px 5px 25px;
+    color: red;
+    text-align: justify;
+    background-color: black;
+    opacity: 0.4;
+}
+.tres {
+    margin-top: 50px;
+    border-top-style: solid;  border-right-style: dashed; border-bottom-style: solid; border-left-style: dashed;
+    border-top-color: yellowgreen; border-right-color: yellowgreen; border-bottom-color: yellowgreen;  border-left-color: yellowgreen;
+    border-top-width: 4px;    border-right-width: 7px;    border-bottom-width: 7px;    border-left-width: 4px;
+    padding-top: 5px;         padding-right: 25px;        padding-bottom: 5px;         padding-left: 25px;
+    color: red;
+    text-align: justify;
+    background-color: black;
+    opacity: 0.4;
+}
+.quatre {
+    border: 10px double yellowgreen;
+    margin: 50px 50px 10px 50px;
+    text-align: justify;
+    background-image: url("../imatges/astronomy.jpg");
+    opacity: 0.4;
+}
+.quatre > h1 {
+    text-align: center;
+    color: white;
+}
+p {
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    margin: 0 0 0 0;
+}
+ul {
+    padding-left: 48%;
+    color: yellow;
+}
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: skyblue;
+}
+
+/* selected link */
+a:active {
+  color: skyblue;
+}

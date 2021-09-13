@@ -1,0 +1,42 @@
+/* Exercici A12EX01 */
+h1 {
+    text-align: center;
+}
+.bloque00 {
+    margin: 0 auto;
+    width: 960px;
+    /* border: 1px solid green; ---- marcador bloque */
+    position: relative;
+}
+.bloque01 {
+    width: 260px;
+    /* border: 1px solid red; ---- marcador bloque */
+    position: absolute;
+}
+.bloque02 {
+    width: 700px;
+    /* border: 1px solid yellow; ---- marcador bloque */
+    position: absolute;
+    right: 0%;
+    text-align: justify;
+}
+#contenido {
+    display: table;
+}
+#principal {
+    display: table-row;
+}
+#izquierda {
+    display: table-cell;
+    width: 33%;
+    padding-right: 20px;
+}
+#centro {
+    display: table-cell;
+    width: 33%;
+}
+#derecha {
+    display: table-cell;
+    width: 33%;
+    padding-left: 20px;
+}

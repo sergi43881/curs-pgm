@@ -1,0 +1,27 @@
+/* Exercici A11EX03 */
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.level01 {
+    border: 2px solid #00F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 10px 0 10px;
+}
+.level02 {
+    border: 2px solid #AAA;
+    padding: 0 5px 0 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.level03 {
+    border: 2px solid #0F0;
+}
+.level04 {
+    border: 2px solid #0F0;
+}
+.level05 {
+    margin-top: 15px;
+}

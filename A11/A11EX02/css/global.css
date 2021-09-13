@@ -1,0 +1,14 @@
+/* Exercici A11EX02 */
+.level01 {
+    border-bottom: 2px solid #00F;
+}
+.level02 {
+    border: 2px solid grey;
+}
+.level03 {
+    border-top: 4px dotted #F00;
+    border-bottom: 4px dotted #F00;
+}
+.level04 {
+    border: 2px dashed #0F0;
+}
