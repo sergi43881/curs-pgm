@@ -1,0 +1,11 @@
+.esquerre{
+    float: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+.dret{
+    float: right;
+    width: 40%;
+    margin-right: 40px;
+}

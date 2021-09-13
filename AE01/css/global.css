@@ -1,0 +1,111 @@
+@font-face {
+    font-family: casiofont;
+    src: url('../fonts/BankGothicMdBT.ttf')
+}
+@font-face {
+    font-family: numeros;
+    src: url('../fonts/Calculator.ttf')
+}
+.principal {
+    width: 450px;
+    height: 555px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #25221b;
+    border: 2px solid black;
+    border-radius: 13em/1em;
+    font-family: arial;
+    font-size: 12px;
+}
+.marca {
+    margin: 10px 0px 5px 10px;
+    font-family: casiofont;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    color: #CFB53B;
+}
+.modelo {
+    font-size: 12px;
+    font-family: arial;
+}
+.foto {
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-right: 95px;
+    margin-top: -7px;
+    border: 2px solid #1e1b16;
+    border-radius: 5px;
+}
+.pantalla01 {
+    width: 440px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #3e3b32;
+    border-radius: 13em/1em;
+}
+.pantalla02 {
+    width: 370px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #8a9597;
+}
+.pantalla {
+    margin: 0px;
+    padding: 1px 10px 1px 10px;
+    font-family: numeros;
+    font-size: 50px;
+    text-align: right;
+}
+.teclat {
+    width: 420px;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 1px;
+    border-radius: 13em/1em;
+    border: 3px solid #3e3b32;
+}
+.teclabase {
+    width: 60px;
+    height: 55px;
+    margin: 10px 10px 10px 15px;
+    color: white;
+    background-color: black;
+    border: 2px solid #3e3b32;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teclatip02 {
+    background-color: #6f0000;
+    border: 2px solid black;
+}
+.teclatip03 {
+    background-color: #3e3b32;
+    border: 2px solid black;
+}
+.teclatip04 {
+    height: 130px;
+    margin-right: 22px;
+    margin-top: 10px;
+    float: right;
+}
+.teclatip05 {
+    margin-left: 0px;
+    margin-right: -5px;
+}
+.memoriano {
+    color: white;
+    float: right;
+    padding: 20px;
+    display: none;
+}
+.memoriasi {
+    color: white;
+    float: right;
+    padding: 20px;
+    display: inline;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>A1101</title>
+    <script defer src="js/codigo.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <section id="global_container">
+        <form name="inscripcio" action="" method="post" >
+            <fieldset>
+                <legend>Rellenar</legend>
+                <input type='radio' name='idioma' value='idiomaangles'> Angles <br />
+                <input type='radio' name='idioma' value='idiomaalemany'> Alemany <br />
+                <input type='radio' name='idioma' value='idiomafrances'> Francès <br />
+                <br />
+                <select name='conector'>
+                    <option value='usb'>USB</option>
+                    <option value='paralel'>Paral·lel</option>
+                    <option value='ps2'>PS2</option>
+                </select>
+                <br />
+                Nom<input type='text' name='nom'> <br />
+                Cognoms<input type='text' name='cognoms'> <br />
+                <br />
+                Password: <input type="password" name="password1">
+                Repeteix el password: <input type="password" name="password2">
+
+            </fieldset>
+            <fieldset>
+                <legend>Indiqui les seves preferències per favor</legend>
+                <select name='sexe' multiple='multiple'>
+                    <option value='hombre'>Home</option>
+                    <option value='mujer'>Dona</option>
+                </select>
+                <br />
+                <input type='checkbox' name='sexe' value='sexehome'> Home <br />
+                <input type='checkbox' name='sexe' value='sexedona'> Dona <br />
+                <br />
+                Escull una data:<input type="date"> <br />
+            </fieldset>
+            <button type="button" name="button" onclick="envia()">Enviar</button>
+        </form>
+    </section> <!-- / FINAL SECTION DEL TEST   -->
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/global.css">
+        <script type="text/javascript" src="js/code.js"></script>
+        <title>Autoevaluacio AE01 - Calculadora -</title>
+    </head>
+    <body>
+<!-- caja principal -->
+        <div class="principal">
+<!-- marca y modelo -->
+            <div>
+                <p class="marca">CASIO&nbsp;<span class="modelo">MS-120ER</span>
+                <img class="foto" src="images/solar.jpg">
+                </p>
+            </div>
+<!-- pantalla visualizacion -->
+            <div class="pantalla01">
+                    <p id="memoria" class="memoriano">M</p>
+                <div class="pantalla02">
+                    <p id="pantalla" class="pantalla">0</p>
+                </div>
+            </div>
+<!-- teclado  -->
+            <div class="teclat">
+                <div> <!-- botonera 01  -->
+                    <button type="button" class="teclabase" name="tpercent" onclick="opera('%')">%</button>
+                    <button type="button" class="teclabase" name="tmrc" onclick="opera('MRC')">MRC</button>
+                    <button type="button" class="teclabase teclatip05" name="tmeneg" onclick="opera('M-')">M-</button>
+                    <button type="button" class="teclabase" name="tmepos" onclick="opera('M+')">M+</button>
+                    <button type="button" class="teclabase" name="tdiv" onclick="opera('/')">/</button>
+                </div>
+
+                <div> <!-- botonera 02  -->
+                    <button type="button" class="teclabase" name="tsigno" onclick="opera('+/-')">+/-</button>
+                    <button type="button" class="teclabase teclatip03" name="tsiete" onclick="numero(7)">7</button>
+                    <button type="button" class="teclabase teclatip03 teclatip05" name="tocho" onclick="numero(8)">8</button>
+                    <button type="button" class="teclabase teclatip03" name="tnueve" onclick="numero(9)">9</button>
+                    <button type="button" class="teclabase" name="tmult" onclick="opera('*')">*</button>
+                </div>
+
+                <div> <!-- botonera 03  -->
+                    <button type="button" class="teclabase teclatip02" name="tborrap" onclick="opera('C')">C</button>
+                    <button type="button" class="teclabase teclatip03" name="tcuatro" onclick="numero(4)">4</button>
+                    <button type="button" class="teclabase teclatip03 teclatip05" name="tcinco" onclick="numero(5)">5</button>
+                    <button type="button" class="teclabase teclatip03" name="tseis" onclick="numero(6)">6</button>
+                    <button type="button" class="teclabase" name="tresta" onclick="opera('-')">-</button>
+                </div>
+
+                <div> <!-- botonera 04  -->
+                    <button type="button" class="teclabase teclatip02" name="treset" onclick="opera('AC')">AC</button>
+                    <button type="button" class="teclabase teclatip03" name="tuno" onclick="numero(1)">1</button>
+                    <button type="button" class="teclabase teclatip03 teclatip05" name="tdos" onclick="numero(2)">2</button>
+                    <button type="button" class="teclabase teclatip03" name="ttres" onclick="numero(3)">3</button>
+                    <button type="button" class="teclabase teclatip04" name="tsuma" onclick="opera('+')">+</button>
+                </div>
+
+                <div> <!-- botonera 05  -->
+                    <button type="button" class="teclabase teclatip03" name="tcero" onclick="numero(0)">0</button>
+                    <button type="button" class="teclabase teclatip03" name="tdcero" onclick="numero('00')">00</button>
+                    <button type="button" class="teclabase teclatip03 teclatip05" name="tcoma" onclick="numero('.')">.</button>
+                    <button type="button" class="teclabase" name="tigual" onclick="opera('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

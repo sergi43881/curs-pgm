@@ -1,0 +1,21 @@
+.area {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #96E9BF;
+    border: 3px solid black;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+.botons {
+    text-align: center;
+}
+.centrat {
+    padding: 20px 50px;
+    margin: 50px 10px;
+    background-color: #96E9BF;
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+}

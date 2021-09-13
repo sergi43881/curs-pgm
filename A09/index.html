@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Francesc Ricart">
+    <title>Formulario con campos ocultos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/codigo1.js"></script>
+</head>
+
+<body>
+    <div class="botonera">
+        <input type="text" name="origen" placeholder="Escriu el text a copiar" id="origen">
+        <button type="button" name="button_nombre" onclick="copianom()">Copia a nombre</button>
+        <button type="button" name="button_email" onclick="copiaemail()">Copia a email</button>
+        <button type="button" name="button_mensaje" onclick="copiamsj()">Copia a mensaje</button>
+    </div>
+
+    <div class="container">
+        <form action="#" class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Escribe tu email" id="email" required>
+
+            <label for="psw">Contraseña:</label>
+            <input type="password" name="psw" placeholder="Escribe tu contraseña" id="psw" required>
+
+            <label for="psw2">Contraseña:</label>
+            <input type="password" name="psw2" placeholder="Repite tu contraseña" id="psw2" required>
+
+            <label for="asunto" id="test">Asunto:</label>
+            <select name="asunto" id="asunto">
+                <option value="info">Solicitar información</option>
+                <option value="curso">Apuntarse a un curso</option>
+                <option value="otro">Otro motivo</option>
+            </select>
+
+            <label for="curso">Curso:</label>
+            <input type="text" name="curso" placeholder="Escribe el nombre del curso" id="curso" required>
+
+            <label for="mensaje">Escribe un mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <div class="bottom">
+                <button type="button" name="button_envia" onclick="mostra()">Enviar</button>
+                <button type="button" name="button_ esborra" onclick="esborra()">Esborrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

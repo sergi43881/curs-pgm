@@ -1,0 +1,103 @@
+body
+{
+    background-color: #96e9bf;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+h1
+{
+    color: white;
+    text-shadow: 10px -5px 5px #1c7e4c;
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 1%;
+    margin-top: 0%;
+}
+
+p /* espacio de la primera linia de los párrafos */
+{
+    text-indent: 3%;
+}
+
+hr
+{
+    border: 2px solid #1c7e4c;
+}
+
+hr.half
+{
+    width: 50%;
+}
+
+/* SPANS */
+.lugar
+{
+    color: red;
+    text-decoration: underline double;
+}
+
+.azul
+{
+    color: blue;
+}
+
+.dia
+{
+    border: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* -- SPANS -- */
+
+.head
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-left: 4px solid #1c7e4c;
+    border-right: 4px solid #1c7e4c;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* IMÁGENES */
+#imggandhi
+{
+    float: left;
+    margin: 0.5%;
+    height: 160px;
+    width: 125px;
+}
+
+#imgindia
+{
+    float: right;
+    height: 60px;
+    width: 80px;
+}
+
+#imgusa
+{
+    float: left;
+    height: 60px;
+    width: 80px;
+}
+
+#imgking
+{
+    float: right;
+    margin: 0.5% ;
+    height: 160px;
+    width: 125px;
+}
+/* -- IMÁGENES -- */
+
+.footer
+{
+    font-size: xx-small;
+    line-height: 0%;
+    margin-top: 3%; 
+}
+

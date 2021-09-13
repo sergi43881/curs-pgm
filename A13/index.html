@@ -1,0 +1,79 @@
+HTML
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>A13</title>
+        <link rel="stylesheet" href="css/global.css">
+        <script type="text/javascript" src="js/code.js"></script>
+    </head>
+
+    <body id="canvilletra"> <!-- id para cambio de la fuente -->
+        <form name="inscripcio" action="" method="post" >
+            <fieldset>
+                <legend id="legend">Configuració</legend>
+
+                <div>
+                    <span id="lengua">Idioma</span>
+                    <br/>
+                    <input type='radio' name='idioma' value='idiomacatala' onclick="traduccio()"><span id="idiomacatala">  Català </span><br/>
+                    <input type='radio' name='idioma' value='idiomacastella' onclick="traduccio()"><span id="idiomacastella">  Castellà </span><br/>
+                </div>
+
+                <br/>
+                <div>
+                    <span id="font" name="font">Font</span>
+                    <br />
+                    <input type='radio' name='font' value='Serif' onclick="canvifont()"> Serif <br/>
+                    <input type='radio' name='font' value='Sans-serif' onclick="canvifont()"> Sans-serif <br/>
+                    <input type='radio' name='font' value='Monospace' onclick="canvifont()"> Monospace <br/>
+                    <input type='radio' name='font' value='Cursive' onclick="canvifont()"> Cursive <br/>
+                    <input type='radio' name='font' value='Fantasy' onclick="canvifont()"> Fantasy <br/>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend id="omplir">Omplir</legend>
+                <span id="ocupacio">Ocupació</span>
+                <br/>
+
+                <!-- Select primario-->
+                <select name='primari' multiple='multiple' onclick="selectsecundario()">
+                    <option value='estudiant' id="estudiant" >Estudiant</option>
+                    <option value='treballador' id="treballador">Treballador</option>
+                </select>
+                <!-- Select secundario oculto por defecto -->
+                <span id="text2" class="select2no">Seleccioni sub-grup d'ocupació</span>
+                <select name='secundari' id="listasecundaria" class="select2no" onchange="reserva()">
+                </select>
+
+                <br/>
+                <br/>
+                <span id="nom">Nom </span><input type='text' name='nom' id="identificadorNom"><br/>
+                <span id="cognoms">Cognoms </span><input type='text' name='cognoms' id="vapellido"><br/>
+                <br/>
+                <span id="pass">Password: </span><input type="password" name="password1" id="pass1">
+                <span id="passrep">Repeteix el password: </span><input type="password" name="password2" id="pass2">
+            </fieldset>
+
+            <fieldset>
+                <legend id="preferencias">Indiqui les seves preferències per favor</legend>
+
+                <select name='sexe' multiple='multiple'>
+                    <option value='hombre' id="mas">Home<br/></option>
+                    <option value='mujer' id="fem">Dona</option>
+                </select>
+
+                <br/>
+                <span id="mas1">Home</span><input type='checkbox' name='sexe' value='sexehome'><br/>
+                <span id="fem1">Dona</span><input type='checkbox' name='sexe' value='sexedona'><br/>
+                <br/>
+                <span id="fecha">Escull una data: </span><input type="date" id="vfecha"> <br />
+            </fieldset>
+
+            <button type="button" name="button" onclick="valida()"><span id="boton"> Enviar-ho </span></button>
+        </form>
+    </body>
+
+</html>

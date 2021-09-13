@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>A1103</title>
+    <link rel="stylesheet" href="css/global.css">
+    <script defer src="js/codigo.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <section id="global_container">
+        <div class="esquerre">
+            <form name="inscripcio" action="" method="post" >
+                <fieldset>
+                    <legend>Rellenar</legend>
+                    <br />
+                    Nomb<input type='text' name='nom'> <br />
+                    Cognoms<input type='text' name='cognoms'> <br />
+                    Password: <input type="password" name="password1">
+                    <br />
+                    Repeteix el password: <input type="password" name="password2">
+                    <br />
+                    <select name='conector'>
+                        <option value='usb'>USB</option>
+                        <option value='paralel'>Paral·lel</option>
+                        <option value='ps2'>PS2</option>
+                    </select>
+                </fieldset>
+                <br />
+                <button type="button" name="button" onclick="traspassar()">Traspassar</button>
+            </form>
+        </div>
+        <div class="dret">
+            <form name="replica" action="" method="post" >
+                <fieldset>
+                    <legend>Rellenar</legend>
+                    Nomb<input type='text' name='nom'> <br />
+                    Cognoms<input type='text' name='cognoms'> <br />
+                    Password: <input type="password" name="password1">
+                    <br />
+                    Repeteix el password: <input type="password" name="password2">
+                    <br />
+                    <select name='conector'>
+                        <option value='usb'>USB</option>
+                        <option value='paralel'>Paral·lel</option>
+                        <option value='ps2'>PS2</option>
+                    </select>
+                    <br />
+                </fieldset>
+            </form>
+        </div>
+    </section> <!-- / FINAL SECTION DEL TEST   -->
+</body>
+
+</html>

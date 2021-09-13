@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+.principal {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.titol {
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.marco {
+    width: 980px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.pregunta {
+    width: 700px;
+    display: inline-block;
+}
+.titulopregunta {
+    font-weight: bold;
+    margin: 30px;
+}
+label {
+    margin-left: 8px;
+}
+.textpreg {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.imagen {
+    display: inline-block;
+}
+.foto {
+    width: 250px;
+    height: 165px;
+}
+.boton {
+    margin: 30px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.notas {
+    width: 470px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid blue;
+    background-color: #ecf3f9;
+    display: none;
+}
+.textres {
+    padding-left: 95px;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+.boton2 {
+    margin: 10px 10px 10px 18px;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}

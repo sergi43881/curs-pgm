@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Francesc Ricart">
+    <title>TEST DE CONDUCCION</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/codigo.js"></script>
+</head>
+
+<body>
+
+    <div class="principal">
+        <h1 class="titol">Test conducción</h1>
+
+        <div class="notas" id="notas">
+            <h2>RESULTADO DEL TEST</h2>
+            <p class="textres">Respuestas correctas ....: <span id="resbe"></span></p>
+            <p class="textres">Respuestas incorrectas .: <span id="resmal"></span></p>
+            <p class="textres">NOTA TOTAL ...................: <span id="total"></span></p>
+            <div>
+                <button type="button" id="botenvia2" name="button_envia" class="boton2" onclick="volver()">Volver</button>
+                <button type="button" id="botborra2" name="button_envia" class="boton2" onclick="borrar()">Repetir Test</button>
+            </div>
+        </div>
+
+        <form action="#">
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp01">1 - ¿Qué significa esta señal?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio01" id="fradio011" value="opcio_A" onclick="textobold('tp01')">
+                        <label for="fradio01" ondblclick="iniradio('fradio011', 'tp01')"><span id="label011">a) Vía reservada para automóviles.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio01" id="fradio012" value="opcio_B" onclick="textobold('tp01')">
+                        <label for="fradio01" ondblclick="iniradio('fradio012', 'tp01')"><span id="label012">b) Calzada obligatoria para automóviles, excepto motocicletas sin sidecar.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio01" id="fradio013" value="opcio_C" onclick="textobold('tp01')">
+                        <label for="fradio01" ondblclick="iniradio('fradio013', 'tp01')"><span id="label013">c) Calzada obligatoria para automóviles.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto01.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp02">2 - El chaleco reflectante. ¿Cuándo es obligatorio ponérselo?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio02" id="fradio021" value="opcio_A" onclick="textobold('tp02')">
+                        <label for="fradio02" ondblclick="iniradio('fradio021', 'tp02')"><span id="label021">a) Cuando salgo del vehículo en vías urbanas.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio02" id="fradio022" value="opcio_B" onclick="textobold('tp02')">
+                        <label for="fradio02" ondblclick="iniradio('fradio022', 'tp02')"><span id="label022">b) Cuando salgo del vehículo en autopistas y autovías solamente.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio02" id="fradio023" value="opcio_C" onclick="textobold('tp02')">
+                        <label for="fradio02" ondblclick="iniradio('fradio023', 'tp02')"><span id="label023">c) Cuando salgo del vehículo en vías interurbanas.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto02.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp03">3 - El vehículo rojo va a girar a la izquierda. ¿Puede circular por el arcén para adelantarlo por la derecha?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio03" id="fradio031" value="opcio_A" onclick="textobold('tp03')">
+                        <label for="fradio" ondblclick="iniradio('fradio031', 'tp03')"><span id="label031">a) No, porque está prohibido circular por el arcén.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio03" id="fradio032" value="opcio_B" onclick="textobold('tp03')">
+                        <label for="fradio" ondblclick="iniradio('fradio032', 'tp03')"><span id="label032">b) No, porque el camión no me deja ver.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio03" id="fradio033" value="opcio_C" onclick="textobold('tp03')">
+                        <label for="fradio" ondblclick="iniradio('fradio033', 'tp03')"><span id="label033">c) Sí, porque es una intersección con prioridad.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto03.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp04">4 - ¿Qué vehículos pueden circular por un carril de sentido contrario al habitual, como norma general?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio04" id="fradio041" value="opcio_A" onclick="textobold('tp04')">
+                        <label for="fradio" ondblclick="iniradio('fradio041', 'tp04')"><span id="label041">a) Turismos y motocicletas.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio04" id="fradio042" value="opcio_B" onclick="textobold('tp04')">
+                        <label for="fradio" ondblclick="iniradio('fradio042', 'tp04')"><span id="label042">b) Cualquier vehículo.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio04" id="fradio043" value="opcio_C" onclick="textobold('tp04')">
+                        <label for="fradio" ondblclick="iniradio('fradio043', 'tp04')"><span id="label043">c) Turismos, con o sin remolque, y motocicletas.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto04.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp05">5 - En esta intersección, ¿cuándo está permitido adelantar por la derecha?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio05" id="fradio051" value="opcio_A" onclick="textobold('tp05')">
+                        <label for="fradio" ondblclick="iniradio('fradio051', 'tp05')"><span id="label051">a) Cuando no hay señales de detención obligatoria o ceda el paso.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio05" id="fradio052" value="opcio_B" onclick="textobold('tp05')">
+                        <label for="fradio" ondblclick="iniradio('fradio052', 'tp05')"><span id="label052">b) Cuando el vehículo que va delante va a girar a la izquierda.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio05" id="fradio053" value="opcio_C" onclick="textobold('tp05')">
+                        <label for="fradio" ondblclick="iniradio('fradio053', 'tp05')"><span id="label053">c) Cuando no hay señales de vía preferente.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto05.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp06">6 - ¿Está permitido adelantar a un vehículo que ha señalizado, a su vez, que quiere adelantar?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio06" id="fradio061" value="opcio_A" onclick="textobold('tp06')">
+                        <label for="fradio" ondblclick="iniradio('fradio061', 'tp06')"><span id="label061">a) Sí, si después de un tiempo no adelanta y se lo advierte con señales acústicas u ópticas.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio06" id="fradio062" value="opcio_B" onclick="textobold('tp06')">
+                        <label for="fradio" ondblclick="iniradio('fradio062', 'tp06')"><span id="label062">b) No, si lo ha señalizado, tiene preferencia.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio06" id="fradio063" value="opcio_C" onclick="textobold('tp06')">
+                        <label for="fradio" ondblclick="iniradio('fradio063', 'tp06')"><span id="label063">c) No, hay que esperar a que termine la maniobra o apague el intermitente.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto06.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp07">7 - Los Agentes de la autoridad y el personal de obras, ¿están obligados a utilizar dispositivos retrorreflectantes que permitan distinguirlos a una distancia mínima de 150 metros?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio07" id="fradio071" value="opcio_A" onclick="textobold('tp07')">
+                        <label for="fradio" ondblclick="iniradio('fradio071', 'tp07')"><span id="label071">a) Sí, siempre.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio07" id="fradio072" value="opcio_B" onclick="textobold('tp07')">
+                        <label for="fradio" ondblclick="iniradio('fradio072', 'tp07')"><span id="label072">b) Sí, pero sólo de noche.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio07" id="fradio073" value="opcio_C" onclick="textobold('tp07')">
+                        <label for="fradio" ondblclick="iniradio('fradio073', 'tp07')"><span id="label073">c) No.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto07.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp08">8 - Son remolques ligeros aquellos cuya M.M.A...</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio08" id="fradio081" value="opcio_A" onclick="textobold('tp08')">
+                        <label for="fradio" ondblclick="iniradio('fradio081', 'tp08')"><span id="label081">a) es igual a 750 kg.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio08" id="fradio082" value="opcio_B" onclick="textobold('tp08')">
+                        <label for="fradio" ondblclick="iniradio('fradio082', 'tp08')"><span id="label082">b) no supera los 750 kg.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio08" id="fradio083" value="opcio_C" onclick="textobold('tp08')">
+                        <label for="fradio" ondblclick="iniradio('fradio083', 'tp08')"><span id="label083">c) supera los 750 kg.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto08.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp09">9 - En esta situación de aglomeración, ¿podrá circular por el arcén?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio09" id="fradio091" value="opcio_A" onclick="textobold('tp09')">
+                        <label for="fradio" ondblclick="iniradio('fradio091', 'tp09')"><span id="label091">a) No, está prohibido.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio09" id="fradio092" value="opcio_B" onclick="textobold('tp09')">
+                        <label for="fradio" ondblclick="iniradio('fradio092', 'tp09')"><span id="label092">b) Sí, pues existe una gran aglomeración y así se descongestiona el tráfico.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio09" id="fradio093" value="opcio_C" onclick="textobold('tp09')">
+                        <label for="fradio" ondblclick="iniradio('fradio093', 'tp09')"><span id="label093">c) Sí, si tiene prisa.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto09.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div class="marco">
+                <div class="pregunta">
+                    <div class="titulopregunta"><p id="tp10">10 - Cuando un carril está delimitado a ambos lados por doble línea discontinua, ¿qué deben hacer los conductores?</p></div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio10" id="fradio101" value="opcio_A" onclick="textobold('tp10')">
+                        <label for="fradio" ondblclick="iniradio('fradio101', 'tp10')"><span id="label101">a) Utilizarlo sólo para adelantar a una velocidad máxima de 80 kilómetros por hora.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio10" id="fradio102" value="opcio_B" onclick="textobold('tp10')">
+                        <label for="fradio" ondblclick="iniradio('fradio102', 'tp10')"><span id="label102">b) No circular por él porque la circulación está prohibida.</span></label>
+                    </div>
+                    <div class="textpreg">
+                        <input type="radio" name="opcio10" id="fradio103" value="opcio_C" onclick="textobold('tp10')">
+                        <label for="fradio" ondblclick="iniradio('fradio103', 'tp10')"><span id="label103">c) Si la circulación está regulada por semáforos de carril, obedecer sus indicaciones.</span></label>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img class="foto" src="images/foto10.jpg" alt="Imagen pregunta 01">
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="botenvia1" name="button_envia" class="boton" onclick="corregir()">Corregir test</button>
+                <button type="button" id="botborra1" name="button_envia" class="boton" onclick="borrar()">Inicializar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+<!-- RESPUESTAS
+
+1A
+2C
+3A
+4A
+5B
+6A
+7A
+8B
+9A
+10C

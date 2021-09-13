@@ -1,0 +1,22 @@
+.select2no {
+    margin-left: 10px;
+    display: none;
+}
+.select2si {
+    margin-left: 10px;
+    display: inline;
+}
+.radioerror {
+    color: red;
+    font-weight: bold;
+}
+.radiobien {
+    color: black;
+    font-weight: none;
+}
+.textoerror {
+    border: 1px solid red;
+}
+.textobien {
+    border: 0.1px solid grey;
+}

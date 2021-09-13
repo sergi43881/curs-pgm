@@ -1,0 +1,21 @@
+.principal {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: arial;
+    font-size: 12px;
+    margin-top: 100px;
+    text-align: center;
+}
+.boton {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    color: white;
+    background-color: black;
+    border: 2px solid #3e3b32;
+    border-radius: 5px;
+    font-size: 50px;
+    cursor: pointer;
+}
